@@ -1,0 +1,21 @@
+56c56
+<             var searchbar = new Gtk.Entry ();
+---
+>             var searchbar = new Gtk.SearchEntry ();
+87c87
+<             var searchbar_second = new Gtk.Entry ();
+---
+>             var searchbar_second = new Gtk.SearchEntry ();
+112,117d111
+<             
+<             window.set_default_size (900, 640);
+<             window.add (stack);
+<             window.show_all ();
+<             welcomemessage.show_all ();
+<         }
+119,123d112
+<         public static int main (string[] args) {
+<             var app = new Dive.Application ();
+<             return app.run (args);
+<         }
+<     }
